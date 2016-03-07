@@ -11,7 +11,6 @@ import UIKit
 class PhotoDetailViewController: UIViewController {
     @IBOutlet weak var photoImageView: UIImageView!
     
-    var textImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
