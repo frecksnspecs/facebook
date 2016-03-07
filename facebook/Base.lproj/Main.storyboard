@@ -219,33 +219,41 @@
         <scene sceneID="d4y-vD-RcX">
             <objects>
                 <viewController storyboardIdentifier="PhotoDetailViewController" id="5cu-fz-76G" customClass="PhotoDetailViewController" customModule="facebook" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ZgX-hn-Z89">
+                    <view key="view" opaque="NO" alpha="0.0" contentMode="scaleToFill" id="ZgX-hn-Z89">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="REw-Nx-fab">
+                            <view contentMode="scaleToFill" id="V7x-Xn-EJf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NBY-mF-53O">
+                                <rect key="frame" x="260" y="22" width="51" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="doneButton"/>
+                                <connections>
+                                    <action selector="doneTap:" destination="5cu-fz-76G" eventType="touchUpInside" id="M9V-Yv-vH5"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="3" id="REw-Nx-fab">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Vfb-xu-1av">
-                                        <rect key="frame" x="0.0" y="136" width="320" height="236"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Vfb-xu-1av">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="NBY-mF-53O">
-                                        <rect key="frame" x="261" y="17" width="51" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" image="doneButton"/>
-                                        <connections>
-                                            <action selector="doneTap:" destination="5cu-fz-76G" eventType="touchUpInside" id="M9V-Yv-vH5"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.99989169836044312" green="1" blue="0.99988096952438354" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="photoImageView" destination="Vfb-xu-1av" id="iYb-7D-7fo"/>
+                        <outlet property="backgroundView" destination="V7x-Xn-EJf" id="OVe-oD-Mvu"/>
+                        <outlet property="doneButton" destination="NBY-mF-53O" id="jda-gt-PNO"/>
+                        <outlet property="photoImageView" destination="Vfb-xu-1av" id="3zE-Ba-Plu"/>
+                        <outlet property="scrollView" destination="REw-Nx-fab" id="eYq-F1-yZS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8vJ-0p-AvV" userLabel="First Responder" sceneMemberID="firstResponder"/>

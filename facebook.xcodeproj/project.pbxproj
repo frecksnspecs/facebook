@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		C8295ADD1C8D240B00559331 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8295ADC1C8D240B00559331 /* PhotoDetailViewController.swift */; };
 		C8295ADF1C8D397100559331 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8295ADE1C8D397100559331 /* HomeViewController.swift */; };
+		C8295B1B1C8D42A900559331 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8295B1A1C8D42A900559331 /* BaseTransition.swift */; };
+		C8295B1D1C8D47E400559331 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8295B1C1C8D47E400559331 /* ImageTransition.swift */; };
 		C87E3D651C6C247C00888C1A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E3D641C6C247C00888C1A /* Common.swift */; };
 		C87E3D671C6C24F200888C1A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87E3D661C6C24F200888C1A /* LoginViewController.swift */; };
 		C899C4711C62CE6B001D7E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C899C4701C62CE6B001D7E21 /* AppDelegate.swift */; };
@@ -47,6 +49,8 @@
 /* Begin PBXFileReference section */
 		C8295ADC1C8D240B00559331 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		C8295ADE1C8D397100559331 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C8295B1A1C8D42A900559331 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		C8295B1C1C8D47E400559331 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
 		C87E3D641C6C247C00888C1A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		C87E3D661C6C24F200888C1A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C899C46D1C62CE6B001D7E21 /* facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +123,8 @@
 		C899C46F1C62CE6B001D7E21 /* facebook */ = {
 			isa = PBXGroup;
 			children = (
+				C8295B1A1C8D42A900559331 /* BaseTransition.swift */,
+				C8295B1C1C8D47E400559331 /* ImageTransition.swift */,
 				C8295ADE1C8D397100559331 /* HomeViewController.swift */,
 				C899C4701C62CE6B001D7E21 /* AppDelegate.swift */,
 				C87E3D641C6C247C00888C1A /* Common.swift */,
@@ -293,8 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C87E3D671C6C24F200888C1A /* LoginViewController.swift in Sources */,
+				C8295B1D1C8D47E400559331 /* ImageTransition.swift in Sources */,
 				C899C4A51C62DAD2001D7E21 /* MessagesViewController.swift in Sources */,
 				C899C4731C62CE6B001D7E21 /* ViewController.swift in Sources */,
+				C8295B1B1C8D42A900559331 /* BaseTransition.swift in Sources */,
 				C899C4A91C62DC23001D7E21 /* SettingsViewController.swift in Sources */,
 				C899C4711C62CE6B001D7E21 /* AppDelegate.swift in Sources */,
 				C8295ADF1C8D397100559331 /* HomeViewController.swift in Sources */,
