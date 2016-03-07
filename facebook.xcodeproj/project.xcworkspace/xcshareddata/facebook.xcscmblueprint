@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "06D6B619711EBBE15A03BE72EA81B9EECBB8640B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "06D6B619711EBBE15A03BE72EA81B9EECBB8640B" : 0,
+    "FC80D8BEA5378F06A2372BB9CC509FF92EE854D6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CE209DD1-461B-42A3-B995-97534CEB915E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "06D6B619711EBBE15A03BE72EA81B9EECBB8640B" : "facebook_photo\/",
+    "FC80D8BEA5378F06A2372BB9CC509FF92EE854D6" : "facebook_photo\/facebook\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "facebook",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "facebook.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/frecksnspecs\/facebook.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "06D6B619711EBBE15A03BE72EA81B9EECBB8640B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/frecksnspecs\/facebook.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FC80D8BEA5378F06A2372BB9CC509FF92EE854D6"
+    }
+  ]
+}
