@@ -24,7 +24,4 @@ Here's a walkthrough of all implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-I had the zoom working before I implemented the image paging in full screen mode - now it's sort of working, but messes with the scroll offset. 
-
-I was getting an error when trying to downcast the `NewsFeedViewController` in the `ImageTransition` file, since it's nested in a navigation controller and a tab bar controller, so I set the values in the news feed and assigned the properties as global variables in the imageTransition file. This makes it easier to re-use the `ImageTransition` for other view controllers in the future. 
-
+Had a lot of issues passing data through a segue and ended up using a global variable to hold the image being passed between the two view controllers.  
