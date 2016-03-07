@@ -62,10 +62,6 @@ class HomeViewController: UIViewController, UIScrollViewDelegate, UIViewControll
         }
     }
     
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
-        // This method is called when the scrollview finally stops scrolling.
-        
-    }
     
     @IBAction func photoDidTap(sender: UITapGestureRecognizer) {
         selectedImage = sender.view as! UIImageView

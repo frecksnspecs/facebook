@@ -13,6 +13,7 @@ class PhotoDetailViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var backgroundView: UIView!
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var doneButton: UIButton!
+    @IBOutlet weak var photoActionsView: UIImageView!
     
     let backgroundViewColor = UIColor(white: 0, alpha: 1)
     var currentImageViewIndex = 0
@@ -42,7 +43,7 @@ class PhotoDetailViewController: UIViewController, UIScrollViewDelegate {
         
         doneButton.alpha = offsetFade
         backgroundView.alpha = offsetFade
-//        photoActionsView.alpha = offsetFade
+        photoActionsView.alpha = offsetFade
         
     }
     
